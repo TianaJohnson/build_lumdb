@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+const welcome = "Welcome to React";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <h1>{welcome}</h1>
           Learn React
         </a>
       </header>
