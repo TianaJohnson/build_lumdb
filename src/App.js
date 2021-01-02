@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
 
-const welcome = "Welcome to React";
+
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Welcome/>
+          <Welcome text="Welcome to React"/>
           Learn React
         </a>
       </header>
@@ -31,7 +31,7 @@ function App() {
 class Welcome extends Component{
   render(){
     return(
-      <h2 className="title">{welcome}!!!</h2>
+      <h2 className="title">{this.props.text}!!!</h2>
     )
   }
 }
