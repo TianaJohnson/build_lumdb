@@ -13,15 +13,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           <Welcome text="Welcome to React"/>
           Learn React
-        </a>
       </header>
     </div>
   );
@@ -29,10 +22,19 @@ function App() {
 
 
 class Welcome extends Component{
+
+  state = {
+    toggle: true
+  }
+
   render(){
     const {text} = this.props;
     return(
+      <div>
       <h2 className="title">{text}!!!</h2>
+      <p>This should show and hide</p>
+        <button>show/hide</button>
+        </div>
     )
   }
 }
