@@ -30,8 +30,9 @@ function App() {
 
 class Welcome extends Component{
   render(){
+    const {text} = this.props;
     return(
-      <h2 className="title">{this.props.text}!!!</h2>
+      <h2 className="title">{text}!!!</h2>
     )
   }
 }
