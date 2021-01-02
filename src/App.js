@@ -1,5 +1,7 @@
+
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
 
 const welcome = "Welcome to React";
 
@@ -17,12 +19,21 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h1>{welcome}</h1>
+          <Welcome/>
           Learn React
         </a>
       </header>
     </div>
   );
+}
+
+
+class Welcome extends Component{
+  render(){
+    return(
+      <h2 className="title">{welcome}!!!</h2>
+    )
+  }
 }
 
 export default App;
