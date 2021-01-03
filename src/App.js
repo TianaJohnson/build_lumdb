@@ -27,13 +27,15 @@ class Welcome extends Component{
     super(props);
   }
 
-  componentWillMount(){
-    console.log("component will mount")
-  }
+  // componentWillMount(){
+  //   console.log("component will mount")
+  // }
 
-  componentDidMount(){
-    console.log('mounted');
-  }
+  // componentDidMount(){
+  //   console.log('mounted');
+  // }
+
+// ^these are no longer used
 
   state = {
     toggle: true
