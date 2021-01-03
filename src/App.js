@@ -23,12 +23,12 @@ function App() {
 
 class Welcome extends Component{
 
-  constructor(){
+  constructor(props){
     super(props);
   }
 
   componentWillMount(){
-    
+    console.log("component will mount")
   }
 
   state = {
