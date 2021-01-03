@@ -13,7 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-          <Welcome text="Welcome to React"/>
+          <Welcome/>
           Learn React
       </header>
     </div>
@@ -27,13 +27,22 @@ class Welcome extends Component{
     toggle: true
   }
 
+  toggle = () => {
+    this.setState({
+      toggle: !this.state.toggle
+    })
+  }
+
   render(){
-    const {text} = this.props;
+ 
     return(
       <div>
-      <h2 className="title">{text}!!!</h2>
+      <h2 className="title">Welcome to React</h2>
+      
+      {this.state.toggle && 
       <p>This should show and hide</p>
-        <button>show/hide</button>
+  }
+        <button onClick= {this.toggle}>show/hide</button>
         </div>
     )
   }
