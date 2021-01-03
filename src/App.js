@@ -31,6 +31,10 @@ class Welcome extends Component{
     console.log("component will mount")
   }
 
+  componentDidMount(){
+    console.log('mounted');
+  }
+
   state = {
     toggle: true
   }
