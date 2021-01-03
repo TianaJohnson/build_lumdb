@@ -23,6 +23,14 @@ function App() {
 
 class Welcome extends Component{
 
+  constructor(){
+    super(props);
+  }
+
+  componentWillMount(){
+    
+  }
+
   state = {
     toggle: true
   }
