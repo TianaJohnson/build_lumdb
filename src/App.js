@@ -25,6 +25,7 @@ class Welcome extends Component{
 
   constructor(props){
     super(props);
+    console.log('constructor', props)
   }
 
   // componentWillMount(){
