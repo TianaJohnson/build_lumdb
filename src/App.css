@@ -1,3 +1,7 @@
+html {
+  margin: 0px;
+}
+
 .App {
   text-align: center;
 }
@@ -45,5 +49,5 @@
   background-color: pink;
 }
 .header-title{
-  padding: 30px;
+  margin-top: 0px;
 }
