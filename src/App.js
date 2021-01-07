@@ -1,5 +1,6 @@
 
-import Header from './Header'
+import Header from './Header';
+import Footer from './Footer';
 import './App.css';
 import { Component } from 'react';
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
           <Welcome/>
-        
+      <Footer/>
     </div>
   );
 }

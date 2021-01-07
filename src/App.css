@@ -38,7 +38,7 @@
   }
 }
 
-.header-main {
+.header-main, .footer  {
   background-color: #61dafb;
   height: 200px;
   
