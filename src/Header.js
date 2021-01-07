@@ -7,7 +7,6 @@ class Header extends Component {
         return (
             <div className="header-main">
 
-                Welcome
             </div>
          )
     }
