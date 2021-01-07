@@ -1,5 +1,4 @@
 
-
 .App {
   text-align: center;
 }
@@ -42,10 +41,12 @@
 .header-main {
   background-color: #61dafb;
   height: 200px;
+  
 }
 .header-main:hover{
   background-color: pink;
 }
-.header-title{
-  margin-top: 0px;
-}
+/* .header-title{
+  margin: 0px;
+} */
+
