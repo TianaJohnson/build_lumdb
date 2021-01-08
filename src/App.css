@@ -51,3 +51,8 @@
   margin: 50px;
 }
 
+.input-header{
+  display:flex;
+  justify-content: center;
+}
+
