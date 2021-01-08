@@ -6,9 +6,11 @@ class Body extends Component {
     render() {
         return (
             <div className="body-main">
-                What is it?
-                <br/>
-                <input/>
+                <h2 className="input-header">What is it?</h2>
+               
+                <input className="input-main"/>
+                <button className="input-button">Add!</button>
+
                 
             </div>
          )
