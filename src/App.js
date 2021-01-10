@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Header/>
       <div className="main">
-          <Welcome/>
           <Body/>
           </div>
       <Footer/>
@@ -21,37 +20,7 @@ function App() {
 }
 
 
-class Welcome extends Component{
-
-  constructor(props){
-    super(props);
-    console.log('constructor', props)
-  }
 
 
-  state = {
-    toggle: true
-  }
-
-  toggle = () => {
-    this.setState({
-      toggle: !this.state.toggle
-    })
-  }
-
-  render(){
- 
-    return(
-      <div>
-      <h2 className="title">Sup</h2>
-      
-      {this.state.toggle && 
-      <p>This should show and hide</p>
-  }
-        <button onClick= {this.toggle}>show/hide</button>
-        </div>
-    )
-  }
-}
 
 export default App;
