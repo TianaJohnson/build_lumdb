@@ -55,6 +55,10 @@
   min-height: 150px;
 }
 
+.input-main{
+  margin: 10px;
+}
+
 .input-header{
   display:flex;
   justify-content: center;

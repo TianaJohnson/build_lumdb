@@ -9,7 +9,8 @@ class Body extends Component {
                 <h2 className="input-header">What is it?</h2>
                
                 <input className="input-main"/>
-                <button className="input-button">Add!</button>
+                <button className="input-button"
+                onClick={this.adition}>Add!</button>
 
                 
             </div>
