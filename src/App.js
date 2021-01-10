@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Body from './Body';
 import './App.css';
-import { Component } from 'react';
+import React from 'react';
 
 
 
