@@ -37,6 +37,9 @@
     transform: rotate(360deg);
   }
 }
+.main {
+  min-height: 300px;
+}
 
 .header-main, .footer  {
   background-color: #61dafb;
@@ -49,7 +52,7 @@
 
 .body-main {
   margin: 50px;
-  min-height: 110px;
+  min-height: 150px;
 }
 
 .input-header{
