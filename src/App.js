@@ -28,15 +28,6 @@ class Welcome extends Component{
     console.log('constructor', props)
   }
 
-  // componentWillMount(){
-  //   console.log("component will mount")
-  // }
-
-  // componentDidMount(){
-  //   console.log('mounted');
-  // }
-
-// ^these are no longer used
 
   state = {
     toggle: true
@@ -52,7 +43,7 @@ class Welcome extends Component{
  
     return(
       <div>
-      <h2 className="title">Welcome to React</h2>
+      <h2 className="title">Sup</h2>
       
       {this.state.toggle && 
       <p>This should show and hide</p>
