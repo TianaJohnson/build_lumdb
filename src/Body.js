@@ -3,6 +3,11 @@ import './App.css';
 
 
 class Body extends Component {
+
+    submit = () => {
+        console.log("Submit")
+    }
+
     render() {
         return (
             <div className="body-main">
@@ -10,7 +15,7 @@ class Body extends Component {
                
                 <input className="input-main" type="text"/>
                 <button className="input-button"
-                onClick={this.addition}>Add!</button>
+                onClick={this.submit}>Add!</button>
 
                 
             </div>
