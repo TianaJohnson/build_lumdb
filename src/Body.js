@@ -13,7 +13,7 @@ class Body extends Component {
             <div className="body-main">
                 <h2 className="input-header">What is it?</h2>
                
-                <input className="input-main" type="text"/>
+                <input className="input-main" type="text" ref={(input) => this.text = input}/>
                 <button className="input-button"
                 onClick={this.submit}>Add!</button>
 
