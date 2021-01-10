@@ -10,7 +10,7 @@ class Body extends Component {
                
                 <input className="input-main"/>
                 <button className="input-button"
-                onClick={this.adition}>Add!</button>
+                onClick={this.addition}>Add!</button>
 
                 
             </div>
