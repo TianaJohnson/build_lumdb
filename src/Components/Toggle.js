@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Toggle = () => {
+const Toggle = () => {
     return (
         <div>
             <button>Toggle</button>
@@ -8,4 +8,6 @@ export const Toggle = () => {
         </div>
     )
 }
+
+export default Toggle;
 
