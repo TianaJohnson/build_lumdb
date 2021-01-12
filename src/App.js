@@ -1,26 +1,15 @@
-
-import Header from './Header';
-import Footer from './Footer';
-import Body from './Body';
-import './App.css';
 import React from 'react';
+import './App.css';
+import Toggle from './components/Toggle';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-          <Body/> 
-          <div className="push"></div>     
-      <Footer/>
-    
+      <Toggle/>
     </div>
   );
 }
-
-
-
-
 
 export default App;
